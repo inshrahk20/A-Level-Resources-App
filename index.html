@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A level Resources</title>
+    <link rel="icon" href="https://picsum.photos/seed/squidward/192/192" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#FFCBE1" />
+    <link rel="apple-touch-icon" href="https://picsum.photos/seed/squidward/192/192" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ais-pre-ddzqvtyiqqjqtdufs4j4q4-713132578163.asia-southeast1.run.app/" />
+    <meta property="og:title" content="A level Resources" />
+    <meta property="og:description" content="A modern mobile education platform for A-level students." />
+    <meta property="og:image" content="https://picsum.photos/seed/squidward/512/512" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registered'))
+            .catch(err => console.log('Service Worker registration failed', err));
+        });
+      }
+    </script>
+  </body>
+</html>
+

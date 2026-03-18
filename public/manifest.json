@@ -1,0 +1,23 @@
+{
+  "name": "A level Resources",
+  "short_name": "ALR",
+  "description": "A modern mobile education platform for A-level students.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#BCDEEC",
+  "theme_color": "#FFCBE1",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/squidward/192/192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://picsum.photos/seed/squidward/512/512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
